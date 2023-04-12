@@ -1,0 +1,62 @@
+@media (max-width: 1280px) {
+    .container {
+        grid-template-columns: 480px 1fr;
+    }
+    .container .container-descricao h2{
+        font-size: 4.8rem;
+        line-height: 70px;
+    }
+
+    .container .descricao p{
+        font-size: 1.8rem;
+        line-height: 26px;
+    }
+
+    .container .btn-home-page {
+        font-weight: 700;
+        align-self: flex-start;
+        font-size: 1.4rem;
+    }
+
+    @media(max-width: 930px){
+        .container{
+            margin-top: 64px;
+            margin-left: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+        }
+
+        .container-imagem{
+            width: 480px;
+            display: flex;
+        }
+
+        .footer{
+            height: 155px;
+        }
+    }
+
+    @media(max-width: 425px){
+        .container-imagem{
+            width: 286px;
+        }
+    }
+
+    @media(max-width: 320px){
+        .footer .username{
+            font-size: 1.2rem;
+        }
+
+        .container .container-descricao h2{
+            font-size: 3.6rem;
+            line-height: 32px;
+        }
+
+        .footer{
+            height: 100px;
+        }
+    }
+}
